@@ -1,0 +1,8 @@
+[params]
+    [slider]
+        enable = true
+        title = "InfoMarina"
+        subtitle = "Solution logicielle complète pour la gestion des marinas, ports de plaisance et yachts club."
+        bgImage = "http://demo.themefisher.com/airspace-hugo/img/slider-bg.jpg"
+        btnText = "Amarrez-vous à nous!"
+        url = "#"

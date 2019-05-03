@@ -1,0 +1,3 @@
+[submodule "themes/logicus-softwares-generic-hugo"]
+	path = themes/logicus-softwares-generic-hugo
+	url = git@github.com:logicusinc/logicus-softwares-generic-hugo.git

@@ -1,0 +1,7 @@
+[params]
+    [slider]
+        title = "InfoMarina"
+        subtitle = "EN"
+        bgImage = "https://via.placeholder.com/800"
+        btnText = "EN"
+        url = "#"
