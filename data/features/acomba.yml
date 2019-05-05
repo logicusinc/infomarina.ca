@@ -1,0 +1,5 @@
+weight: 4
+name: "Communication Acomba"
+icon: "fas fa-file-invoice-dollar"
+description: "Permets la gestion des réservations, des arrivées, des départs, des départs temporaires. Gestions des listes d'attente et consultation et impression des statistiques."
+isPaid: true

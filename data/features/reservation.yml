@@ -1,0 +1,5 @@
+weight: 1
+name: "Module Réservation"
+icon: "far fa-calendar-alt"
+description: "Permets la gestion des réservations, des arrivées, des départs, des départs temporaires. Gestions des listes d'attente et consultation et impression des statistiques."
+isPaid: false

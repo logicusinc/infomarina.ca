@@ -1,0 +1,5 @@
+weight: 3
+name: "Module Plan Intéractif"
+icon: "far fa-map"
+description: "Permets de gérer votre site à partir d'un plan personnalisé et représentatif du visuel de vos installations; voyez au jour le jour, les places qui sont complètes, incomplètes et libres."
+isPaid: true

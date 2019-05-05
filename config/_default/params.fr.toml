@@ -6,3 +6,20 @@
         bgImage = "http://demo.themefisher.com/airspace-hugo/img/slider-bg.jpg"
         btnText = "Amarrez-vous à nous!"
         url = "#"
+    [features]
+        enable = true
+        perRows = 2
+    [testimonials]
+        enable = true
+        title = "Témoignages"
+        lead = "Nous avons travaillé avec de nombreux clients et nous aimons toujours entendre dire qu'ils sont heureux et satisfaits de cette coopération. Regardez ce que nos clients ont dit de nous."
+    [clients]
+        enable = true
+        title = "Nos Clients"
+        lead = "Notre principal objectif dans tout ce que nous faisons est la satisfaction de nos clients"
+    [contact]
+        enable = true
+        title = "Contact"
+        lead = "Vous voulez en savoir plus? Donnez-nous un coup de fil! Nous serons heureux de vous répondre."
+    [pricings]
+        enable = true

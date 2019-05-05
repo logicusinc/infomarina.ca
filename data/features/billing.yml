@@ -1,0 +1,5 @@
+weight: 2
+name: "Module Facturation"
+icon: "fas fa-hand-holding-usd"
+description: "Permets de facturer selon une tarification à l'heure, à la journée, à la semaine, au mois et saisonnière; vente d'articles, d'essence et autres. Accepte tous les modes de paiement"
+isPaid: true

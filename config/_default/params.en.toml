@@ -1,5 +1,6 @@
 [params]
     [slider]
+        enable = true
         title = "InfoMarina"
         subtitle = "EN"
         bgImage = "https://via.placeholder.com/800"
