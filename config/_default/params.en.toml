@@ -6,7 +6,7 @@
             url = "#home"
         [[menu.header]]
             weight = 2
-            name = "Features"
+            name = "Modules"
             url = "#features"
         [[menu.header]]
             weight = 3
@@ -53,4 +53,4 @@
     [pricings]
         enable = true
         title = "Our Pricings"
-        lead = "Veuillez noter que tous nos tarifs sont fonction du nombre de licence et du nombre de quai de votre location."
+        lead = "Please note that all our rates are based on the number of licenses and the number of platforms in your location."

@@ -1,0 +1,7 @@
+weight: 4
+name: Custom
+description: Perfect for single freelancers who work by themselves
+featureList:
+  - item: "You can choose the modules of your own package. Please get in touch with us more have more information!"
+ctaText: Learn More
+ctaURL: "#contact"

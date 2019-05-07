@@ -1,0 +1,5 @@
+weight: 4
+name: "Acomba Module"
+icon: "fas fa-file-invoice-dollar"
+description: "Allows communication between InfoMarina and ACOMBA accounting software. Administrators in the field can so benefit from an tools of unequalled power. <br/><br/>We are also an official supplier of ACOMBA."
+isPaid: true

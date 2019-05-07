@@ -1,0 +1,5 @@
+weight: 2
+name: "Module Facturation"
+icon: "fas fa-hand-holding-usd"
+description: "La tarification à l'heure, à la journée, avec ou sans réduction, n'est pas un problème; en configurant les valeurs de tarification, la facturation sera d'autant plus simple. Profitez d'une interface de travail visuelle et conviviale (raccourcis et boutons).<br/><br/> Permet d'ajouter des ventes d'essence, de capsules et d'autres articles. Accepte tous les modes de paiement. Gère l'ouverture du tiroir-caisse. Impression du rapport de fin de journée et des factures en souffrance."
+isPaid: true

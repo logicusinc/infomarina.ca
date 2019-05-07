@@ -1,0 +1,5 @@
+weight: 3
+name: "Interactive Layout Module"
+icon: "far fa-map"
+description: "Allows you to manage your site from a personalized and representative plan of the visual of your installations; see from day to day, places that are complete, incomplete and free.<br/><br/> The actions carried out in the personalized layout are automatically reflected in the reservation grid and vice versa."
+isPaid: true

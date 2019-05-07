@@ -1,0 +1,12 @@
+weight: 2
+name: Popular
+description: Perfect for single freelancers who work by themselves
+featureList:
+  - item: "**Module:** Reservation"
+  - item: "**Module:** Billing"
+  - item: "**Module:** Interactive Layout"
+  - item: "**Support:** 4 business hours"
+  - item: "Automatic web **updates**"
+ctaText: Learn More
+ctaURL: "#contact"
+isFeatured: True

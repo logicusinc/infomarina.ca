@@ -1,0 +1,5 @@
+weight: 1
+name: "Reservation Module"
+icon: "far fa-calendar-alt"
+description: "No more scheduling problems related to reservations, since InfoMarina validates and warns you of overlapping, and allows you to make the necessary corrections. It allows visualizing all of your reservations and all of your unreserved spaces in graphic form. <br/><br/>With a simple mouse click, you can modify your display to visualize information for one day, one week or one month."
+isPaid: false

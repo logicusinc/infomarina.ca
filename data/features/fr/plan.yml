@@ -1,0 +1,5 @@
+weight: 3
+name: "Module Plan Intéractif"
+icon: "far fa-map"
+description: "Vous permet de gérer votre site à partir d'un plan personnalisé et représentatif du visuel de vos installations; voir au jour le jour, des lieux complets, incomplets et gratuits.<br/><br/> Les actions effectuées dans la mise en page personnalisée sont automatiquement répercutées dans la grille de réservation et inversement."
+isPaid: true

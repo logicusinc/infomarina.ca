@@ -1,0 +1,9 @@
+weight: 1
+name: Basic
+description: Parfait pour...
+featureList:
+  - item: "**Module:** Reservation"
+  - item: "**Support:** 4 business hours"
+  - item: "Automatic web **updates**"
+ctaText: Learn More
+ctaURL: "#contact"
