@@ -1,7 +1,8 @@
 weight: 3
 name: "Marina de Portneuf"
-location: "Washington - États-Unis"
+location: "Québec - Canada"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
+image: "http://www.infomarina.ca/images/clients/marina-portneuf.jpg"
 url: "https://marinadeportneuf.com/"
 

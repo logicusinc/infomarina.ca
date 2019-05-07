@@ -2,5 +2,6 @@ weight: 8
 name: "Marina de Washington"
 location: "Washington - États-Unis"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-3-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-3-logo.png"
+image: "http://www.infomarina.ca/images/clients/washington_marina.jpg"
 url: "https://www.washingtonmarina.com/"

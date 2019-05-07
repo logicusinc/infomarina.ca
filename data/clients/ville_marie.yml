@@ -1,5 +1,6 @@
 weight: 7
 name: "Marina de Ville-Marie"
-location: "Washington - États-Unis"
+location: "Québec - Canada"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-7-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-7-logo.png"
+image: "http://www.infomarina.ca/images/clients/marina_ville-marie.jpg"

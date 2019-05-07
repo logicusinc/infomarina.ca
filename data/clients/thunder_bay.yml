@@ -1,7 +1,8 @@
 weight: 6
 name: "Marina de Thunder Bay"
-location: "Washington - États-Unis"
+location: "Ontario - Canada"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
+image: "http://www.infomarina.ca/images/clients/marina-thunder-bay.jpg"
 url: "https://www.thunderbay.ca/en/recreation/marina.aspx"
 

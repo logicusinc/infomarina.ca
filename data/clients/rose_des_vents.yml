@@ -1,6 +1,7 @@
 weight: 4
 name: "Marina Rose des Vents"
-location: "Washington - États-Unis"
+location: "Québec - Canada"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-8-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-8-logo.png"
+image: "http://www.infomarina.ca/images/clients/marina_rose_des_vents.jpg"
 url: "https://www.marinarosedesvents.com/"

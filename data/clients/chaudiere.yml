@@ -1,7 +1,7 @@
 weight: 2
 name: "Marina de la Chaudière"
-location: "Washington - États-Unis"
+location: "Québec - Canada"
 description: "TODO"
-image: "http://www.infomarina.ca/images/clients/client-2-logo.png"
+# image: "http://www.infomarina.ca/images/clients/client-2-logo.png"
+image: "http://www.infomarina.ca/images/clients/marina_chaudiere.jpg"
 url: "https://www.marinadelachaudiere.com"
-
