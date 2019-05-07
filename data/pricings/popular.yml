@@ -1,8 +1,9 @@
-weight: 1
-name: De Base
-description: Parfait pour...
+weight: 2
+name: Populaire
+description: Perfect for single freelancers who work by themselves
 featureList:
   - item: "**Module:** Réservation"
+  - item: "**Module:** Facturation"
   - item: "**Support:** 4 heures ouvrables"
   - item: "**Mise à jour:** Via internet"
 ctaText: Informez-vous
