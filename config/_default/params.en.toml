@@ -1,8 +1,56 @@
 [params]
+    [menu]
+        [[menu.header]]
+            weight = 1
+            name = "Home"
+            url = "#home"
+        [[menu.header]]
+            weight = 2
+            name = "Features"
+            url = "#features"
+        [[menu.header]]
+            weight = 3
+            name = "Testimonials"
+            url = "#testimonials"
+        [[menu.header]]
+            weight = 4
+            name = "Clients"
+            url = "#clients"
+        [[menu.header]]
+            weight = 5
+            name = "Pricing"
+            url = "#pricing"
+        [[menu.header]]
+            weight = 6
+            name = "Contact"
+            url = "#contact"
+        [[menu.header]]
+            weight = 7
+            name = "Français"
+            url = "/"
     [slider]
         enable = true
         title = "InfoMarina"
-        subtitle = "EN"
-        bgImage = "https://via.placeholder.com/800"
-        btnText = "EN"
+        subtitle = "Complete software solution for managing marinas and yacht clubs of all sizes"
+        bgImage = "http://demo.themefisher.com/airspace-hugo/img/slider-bg.jpg"
+        btnText = "Come aboard with us!"
         url = "#"
+    [features]
+        enable = true
+        perRows = 2
+    [testimonials]
+        enable = true
+        title = "Testimonials"
+        lead = "We have worked with many customers and we always like to hear that they are happy and satisfied with this cooperation. Look what our customers have said about us."
+    [clients]
+        enable = true
+        title = "Our Clients"
+        lead = "Our main goal in everything we do is for the satisfaction of our customers."
+    [contact]
+        enable = true
+        title = "Contact"
+        lead = "You want to know more? Give us a call! We will be happy to answer you."
+    [pricings]
+        enable = true
+        title = "Our Pricings"
+        lead = "Veuillez noter que tous nos tarifs sont fonction du nombre de licence et du nombre de quai de votre location."

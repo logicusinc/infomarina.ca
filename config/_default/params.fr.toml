@@ -1,8 +1,37 @@
 [params]
+    [menu]
+        [[menu.header]]
+            weight = 1
+            name = "Accueil"
+            url = "#home"
+        [[menu.header]]
+            weight = 2
+            name = "Modules"
+            url = "#features"
+        [[menu.header]]
+            weight = 3
+            name = "Témoignages"
+            url = "#testimonials"
+        [[menu.header]]
+            weight = 4
+            name = "Clients"
+            url = "#clients"
+        [[menu.header]]
+            weight = 5
+            name = "Forfaits"
+            url = "#pricing"
+        [[menu.header]]
+            weight = 6
+            name = "Contact"
+            url = "#contact"
+        [[menu.header]]
+            weight = 7
+            name = "English"
+            url = "/en"
     [slider]
         enable = true
         title = "InfoMarina"
-        subtitle = "Solution logicielle complète pour la gestion des marinas, ports de plaisance et yachts club."
+        subtitle = "Solution logicielle complète pour la gestion des marinas, ports de plaisance et yachts club de toutes tailles."
         bgImage = "http://demo.themefisher.com/airspace-hugo/img/slider-bg.jpg"
         btnText = "Amarrez-vous à nous!"
         url = "#"
