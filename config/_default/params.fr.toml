@@ -48,8 +48,16 @@
         lead = "Notre principal objectif dans tout ce que nous faisons est la satisfaction de nos clients"
     [contact]
         enable = true
-        title = "Contact"
+        title = "Nous Contactez"
         lead = "Vous voulez en savoir plus? Donnez-nous un coup de fil! Nous serons heureux de vous répondre."
+        address = "31 des Alouettes, Sainte-Anne-des-Lacs <br/>Québec, Canada J0R 1B0"
+        phone =  "Sans frais: +1-888-824-7474"
+        email =  "info@infomarina.ca"
+        form_email = "info@infomarina.ca"
+        form_email_placeholder = "Votre Courriel"
+        form_name_placeholder = "Votre Nom"
+        form_message_placeholder = "Votre Message"
+        form_submit_text = "Envoyer"
     [pricings]
         enable = true
         title = "Nos Forfaits"
