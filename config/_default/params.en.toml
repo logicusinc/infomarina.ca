@@ -28,7 +28,7 @@
             weight = 7
             name = "Français"
             url = "/"
-    [slider]
+    [hero]
         enable = true
         title = "InfoMarina"
         subtitle = "Complete software solution for managing marinas and yacht clubs of all sizes"
@@ -58,7 +58,7 @@
         form_name_placeholder = "Your Name"
         form_message_placeholder = "Your Message"
         form_submit_text = "Send"
-    [pricings]
+    [packages]
         enable = true
         title = "Our Pricings"
         lead = "Please note that all our rates are based on the number of licenses and the number of platforms in your location."
