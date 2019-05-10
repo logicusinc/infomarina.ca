@@ -3,6 +3,6 @@ name: "Marina de Thunder Bay"
 location: "Ontario - Canada"
 description: "TODO"
 # image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina-thunder-bay.jpg"
+image: "/images/clients/thunder_bay_cut.png"
+alternateImage: "/images/clients/thunder_bay_plan.png"
 url: "https://www.thunderbay.ca/en/recreation/marina.aspx"
-
