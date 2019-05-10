@@ -2,4 +2,3 @@ weight: 2
 name: "Billing Module"
 icon: "fas fa-hand-holding-usd"
 description: "Pricing per hour, per day, with or without a discount, is not a problem; by configuring the pricing values, billing will be that much simpler. Take advantage of a visual and easy-to-use work interface (shortcuts and buttons). <br/><br/>Allows adding sales of gasoline, caps, and other items. Accepts any methods of payment. Manages the opening of the cash drawer. Printing of the end of day report and past-due bills."
-isPaid: true
