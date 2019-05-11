@@ -2,5 +2,5 @@ weight: 1
 name: "Module Réservation"
 icon: "far fa-calendar-alt"
 description: "Plus de problèmes de planification liés aux réservations, car InfoMarina valide et vous avertit du chevauchement et vous permet d'apporter les corrections nécessaires. Il permet de visualiser toutes vos réservations et tous vos espaces non réservés sous forme graphique. <br/><br/> D'un simple clic de souris, vous pouvez modifier votre affichage pour visualiser les informations d'un jour, d'une semaine ou d'un mois."
-ctaUrl: "/page/reservation"
+ctaUrl: "page/reservation"
 ctaText: "Plus de détail"
