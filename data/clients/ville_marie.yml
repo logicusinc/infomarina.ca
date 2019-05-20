@@ -2,5 +2,5 @@ weight: 7
 name: "Marina de Ville-Marie"
 location: "Québec - Canada"
 description: "TODO"
-# image: "http://www.infomarina.ca/images/clients/client-7-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina_ville-marie.jpg"
+image: "/images/clients/ville_marie_cut.png"
+alternateImage: "/images/clients/ville_marie_plan.png"

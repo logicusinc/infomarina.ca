@@ -2,7 +2,7 @@ weight: 5
 name: "Marina de Taina"
 location: "Tahiti - France"
 description: "TODO"
-# image: "http://www.infomarina.ca/images/clients/client-5-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina-taina.jpg"
+image: "/images/clients/taina_cut.jpg"
+alternateImage: "/images/clients/taina_plan.png"
 url: "http://www.marina-taina.com/"
 
