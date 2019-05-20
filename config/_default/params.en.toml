@@ -1,4 +1,13 @@
 [params]
+    [head]
+        [head.meta]
+            [head.meta.generic]
+                title = "Software for the management of marinas"
+                description = "InfoMarina is a complete IT solution for the management of marinas and yacht clubs."
+            [head.meta.og]
+                type = "website"
+            [head.meta.twitter]
+                card = "summary"
     [menu]
         [[menu.header]]
             weight = 1

@@ -1,6 +1,5 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.infomarina.ca"
+title = "InfoMarina"
 
 theme = "logicus-softwares-generic-hugo"
 
