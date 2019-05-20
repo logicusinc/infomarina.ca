@@ -1,0 +1,12 @@
+[params]
+    [template]
+        [template.colors]
+            primary_color = "#59abd0"
+            secondary_color = "#2a84bd"
+            neutral_darkest_color = "#555555"
+            neutral_darker_color = "#555555"
+            neutral_dark_color = "#555555"
+            neutral_light_color = "#999999"
+            neutral_lighter_color = "#999999"
+            neutral_lightest_color = "#ffffff"
+
