@@ -28,7 +28,7 @@
         [[menu.header]]
             weight = 5
             name = "Forfaits"
-            url = "#pricing"
+            url = "#package"
         [[menu.header]]
             weight = 6
             name = "Contact"
