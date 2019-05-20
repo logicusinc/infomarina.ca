@@ -2,6 +2,6 @@ weight: 4
 name: "Marina Rose des Vents"
 location: "Québec - Canada"
 description: "TODO"
-# image: "http://www.infomarina.ca/images/clients/client-8-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina_rose_des_vents.jpg"
+image: "/images/clients/395x160.png"
+alternateImage: "/images/clients/395x160.png"
 url: "https://www.marinarosedesvents.com/"

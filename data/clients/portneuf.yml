@@ -2,7 +2,7 @@ weight: 3
 name: "Marina de Portneuf"
 location: "Québec - Canada"
 description: "TODO"
-# image: "http://www.infomarina.ca/images/clients/client-1-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina-portneuf.jpg"
+image: "/images/clients/395x160.png"
+alternateImage: "/images/clients/395x160.png"
 url: "https://marinadeportneuf.com/"
 

@@ -2,6 +2,6 @@ weight: 2
 name: "Marina de la Chaudière"
 location: "Québec - Canada"
 description: "TODO"
-# image: "http://www.infomarina.ca/images/clients/client-2-logo.png"
-image: "http://www.infomarina.ca/images/clients/marina_chaudiere.jpg"
+image: "/images/clients/395x160.png"
+alternateImage: "/images/clients/395x160.png"
 url: "http://www.marinadelachaudiere.com"
