@@ -1,0 +1,21 @@
+published = "true"
+version_number = "5.5j"
+version_date = 2012-09-26
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Pour le calcul du taux d'occupation il est maintenant possible de cocher les emplacements à exclure. Ainsi des emplacements de type services ou autres qui seront cochés ne feront plus partie des calculs."
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Affichage du 12 Novembre 2006 dans la grille lors de l'ourverture du logiciel n'est plus présent"
+    [[fixed.category]]
+        label = "Corrections de traduction anglophone"
+        [[fixed.category.items]]
+            item = "Changement de **Emplacements** pour **Sites**."
+        [[fixed.category.items]]
+            item = "Changement de **Consultations** pour **Lists/Reports**."
+        [[fixed.category.items]]
+            item = "Changement du masque de saisie de **DDMMAAAA** pour **MMDDAAAA**."
+        [[fixed.category.items]]
+            item = "Changement de **feets** pour **feet**."

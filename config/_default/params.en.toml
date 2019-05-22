@@ -71,3 +71,9 @@
         enable = true
         title = "Our Pricings"
         lead = "Please note that all our rates are based on the number of licenses and the number of platforms in your location."
+    [changelog]
+        default_added_label = "Added"
+        default_fixed_label = "Fixed"
+        download_label = "Download"
+        no_download_label = "Not Available"
+        version_prefix_label = "InfoMarina version "

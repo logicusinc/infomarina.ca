@@ -1,0 +1,7 @@
+published = "true"
+version_number = "6.7d"
+version_date = 2013-09-09
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "**Sous les onglets **Arrivée**, **Départs**, Grille**, **Plan**, **Saisonnier** la programmation a été revue afin d'améliorer les déplacements par jour, par mois mois, année et par période.**"

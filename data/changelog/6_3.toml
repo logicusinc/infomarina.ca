@@ -1,0 +1,9 @@
+published = "true"
+version_number = "6.3"
+version_date = 2013-04-11
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Un problème de mémoire sur certains ordinateurs pouvait occasionner une erreur inattendue et la fermeture du logiciel de façon inappropriée lors de l’utilisation de la grille."
+        [[fixed.category.items]]
+            item = "Lors de l’impression de la grille des réservations pour la période d’une journée,  un problème d’impression était occasionné."

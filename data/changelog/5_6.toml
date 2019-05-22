@@ -1,0 +1,15 @@
+published = "true"
+version_number = "5.6"
+version_date = 2012-09-25
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "La TVQ ne s’appliquera plus sur le prix de vente incluant la TPS. Le taux de la TVQ sera rajusté en conséquence et passera de 9,5 % à 9,975 %. Nous avons donc effectué touts les validations et changements dans cette version afin de permettre l'harmonisation de la TVQ le 1 janvier 2013."
+        [[added.category.items]]
+            item = "Si un client avait un changement d'emplacement ou un départ temporaire, le changement était affiché comme un départ et un arrivé dans les onglets **Arrivées** et **Départs** et il était alors difficile de savoir si c'était une vraie arrivée ou un vrai départ (début et fin d'une réservation ou début et fin d'un contrat). Maintenant avec les deux nouvelles colonnes une case à cocher indique dans les onglets **Arrivées** et les **Départs** si les arrivées et les départs sont dus à des changements d'emplacement ou des départs temporaires."
+        [[added.category.items]]
+            item = "Il est maintenant possible de faire une sélection d'une période (entre deux dates), lors de l'impression des étiquettes. Cela permet imprimer les étiquettes on fonction de la période saisie."
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Il pouvait arriver que deux emplacements soient affichés dans la note d'un client même s'il était à un seul emplacement."

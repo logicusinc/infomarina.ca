@@ -1,0 +1,8 @@
+published = true
+version_number = "8.20.2.0"
+version_date = 2019-04-30
+download_link = "https://www.infomarina.ca/maj/download/exe/InfoMarina_instV8.0_Update.EXE"
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Deux nouveaux boutons ont ajoutés dans l'onglet **Assurances** de l'onglet **Embarcation** de la fiche d'un client afin de copier et coller l'ensemble de l'information sur la police d'assurance d'une embarcation à une autre embarcation."

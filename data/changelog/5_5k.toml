@@ -1,0 +1,13 @@
+published = "true"
+version_number = "5.5k"
+version_date = 2012-09-24
+[fixed]
+    [[fixed.category]]
+        label = "Correction majeurs"
+        [[fixed.category.items]]
+            item = "Dans un cas particulier , une erreur pouvait se créer dans les dates de réservation lors d'un changement dans la fiche d'une réservation."
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Différents rapports ont été corrigés et/ou améliorés."
+        [[fixed.category.items]]
+            item = "Les champs de saisie note de la fiche client étaient d'un format inaproprié."

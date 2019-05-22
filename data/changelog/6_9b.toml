@@ -1,0 +1,19 @@
+published = "true"
+version_number = "6.9b"
+version_date = 2014-05-28
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Il est maintenant possible, si vous avez un produit identifié **Est de l’essence**, lors de la création d’une facture incluant de l’essence, de saisir dans la colonne **Sous-total** le montant total indiqué à la pompe. La quantité d’essence selon le prix unitaire sera automatiquement calculée afin de faciliter la saisie."
+        [[added.category.items]]
+                item = "Un nouveau bouton identifié **Nouveau** à été ajouté dans l'onglet **Facturation**. Il permet de créer un nouveau client lors de la création d’une nouvelle facture."
+        [[added.category.items]]
+                item = "Sous le menu **Consultation**, **Statistiques**, **Répartition des clients**, **Répartition des temps de réservation par client** une nouvelle colonne a été ajoutée au rapport. Cette colonne Total (pieds) ou Total (mètres) selon vos paramètres calcule le nombre de pieds ou de mètres bateau pour un client . Exemple. Un client passe 3 (jours/nuit) et son bateau est de 30 pieds ou mètres le total sera de 90 pieds ou mètres. Un total à la fin du rapport affiche la somme de l’ensemble des clients pour la période sélectionnée."
+        [[added.category.items]]
+                item = "Lors de la création du crédit d’une facture (renversement) , la date du jour était utilisée. De plus, il n‘était pas possible de changer la date du crédit (renversement). À partir de cette nouvelle mise à jour, il est possible de changer la date du crédit (renversement) afin de la faire correspondre à date de la facture."
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Dans l'onglet **Grille**, il n’était pas possible de modifier, la date de début afin de prolonger une réservation qui était passée."
+
+

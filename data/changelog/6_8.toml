@@ -1,0 +1,7 @@
+published = "true"
+version_number = "6.8"
+version_date = 2013-09-17
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Le bouton permet le renouvellement de contrat unique ou en lot. Lors de la multiple sélection pour le renouvellement en lot le bouton devenait grisé."

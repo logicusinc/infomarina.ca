@@ -1,0 +1,11 @@
+published = "true"
+version_number = "5.5l"
+version_date = 2012-09-25
+[fixed]
+    [[fixed.category]]
+        label = "Correction majeurs"
+        [[fixed.category.items]]
+            item = "Erreur d'affichage dans les détails de la facture de contrat."
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Il est maintenant possible de faire une sélection multiple, à partir des boutons **Shift** et **Control** dans la fenêtre **Liste des factures** du menu **Facturation** afin d'imprimer plusieurs factures."

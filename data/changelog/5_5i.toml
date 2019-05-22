@@ -1,0 +1,38 @@
+published = "true"
+version_number = "5.5i"
+version_date = 2012-08-27
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Un nouveau champ **Non facturé** dans la table **Arrivé** et **Départ** a été ajouté. Celui-ci permet de savoir rapidement si la réservation ou le contrat sélectionner a été facturé."
+        [[added.category.items]]
+            item = "Ajout du champ **À confirmer** dans la liste des contrats, permettant ainsi de visualiser rapidement les contrats qui sont à confirmer."
+        [[added.category.items]]
+            item = "Un nouveau champ **Est membre à vie** a été ajouté dans la fiche du membre, celui-ci permet de déterminer si le client est un membre à vie de la marina. Ce champ peut être aussi retrouvé sous la liste de la gestion des clients et dans la visualisation de l'onglet visiteur."
+        [[added.category.items]]
+            item = "Nouvel onglet **Consultation** dans le menu d'InfoMarina qui rassemble tous les rapports et les listes de consultation des données d'Infomarina. Uniformisation du style des rapports internes."
+        [[added.category.items]]
+            item = "Nouveau rapport permettant d'afficher les factures et ces détails à l'aide de plusieurs filtres de sélection."
+        [[added.category.items]]
+            item = "Nouvelle liste de données permettant d'afficher la liste client ayant un départ temporaire pour un intervalle donné."
+        [[added.category.items]]
+            item = "Nouveau rapport permettant d'afficher tous les contrats qui sont cochés en tant que **À confirmer**"
+        [[added.category.items]]
+            item = "Onglet **Historique départ temporaire** dans la fiche client permettant d'afficher tous les départs temporaires du client sélectionné"
+        [[added.category.items]]
+            item = "L'ordre de tabulation dans tout le logiciel a été revu et amélioré."
+        [[added.category.items]]
+            item = "Ajout du champ initial pour les utilisateurs du programme pour diminuer la taille du champ du nom des utilisateurs des listes et des rapports."
+        [[added.category.items]]
+            item = "Ajout d'un bouton calendrier pour les champs date, lors de l'impression d'un rapport ou d'une liste permettant ainsi une saisie plus simple d'une date."
+
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Des erreurs majeures étaient occasionnées lors de la modification d'une réservation avec des critères spécifiques. Cette erreur affichait un message lors de la visualisation d'une facture du client avec une erreur dans une de ses réservations."
+        [[fixed.category.items]]
+            item = "Un problème se produisait lors de l'enregistrement de la liste d'attente si la largeur, la hauteur ou le tirant d'eau a été coché en tant qu'obligatoire dans les paramètres."
+        [[fixed.category.items]]
+            item = "Changement de la procédure de l'entrée de notes pour un nouveau client dans la liste d'attente. Il est ainsi possible de directement modifier la colonne de note pour un nouveau client."
+        [[fixed.category.items]]
+            item = "Il n'était plus possible de cliquer sur le champ du numéro d'immatriculation dans la fiche du client, cette erreur est maintenant corrigée."

@@ -1,0 +1,32 @@
+published = "true"
+version_number = "6.6"
+version_date = 2013-06-27
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Une liste de villes du Québec et de l'Ontario a été ajoutée afin de faciliter la saisie d'un nom de ville pour un client. En sélectionnant une ville dans la liste, lors de la modification et/ou de l'ajout d'un nouveau client vous uniformiserez le nom de la ville afin d'éviter d'avoir dans vos données une ville écrite de multiples façons. Cela facilite la gestion, diminue les erreurs et augmente l'efficacité des rapports statistiques."
+        [[added.category.items]]
+            item = "Pour activer cette gestion il faut cocher l'option **Gestion automatisée des noms de villes, provinces, pays et codes postaux** sous le menu **Outils**, **Paramètres**, **Configuration générale** onglet **Général**. De plus, il est possible lorsque cette option est activée de choisir si la sauvegarde des données (villes, provinces, pays) doit être TOUT EN MAJUSCULES ou Majuscules et minuscules."
+        [[added.category.items]]
+            item = "La gestion individuelle des (villes, provinces, pays et codes postaux) est disponible sous le menu **Client**, **Automatisation des adresses**, option **Villes, provinces et pays** ou option **Codes postaux**. Il est possible d'ajouter , modifier, supprimer les villes, provinces, pays et codes postaux à partir de cette gestion. Prendre note que si vous supprimez un pays toutes les provinces, villes et codes postaux de ce pays seront aussi supprimés. Si vous supprimez une province toutes, les villes et codes postaux de cette province seront aussi supprimés. Si vous supprimez une ville, tous les codes postaux de cette ville seront aussi supprimés."
+        [[added.category.items]]
+            item = "Pour gagner en efficacité et en rapidité, lors de la saisie des informations sur un client, si vous entrez le code postal, les informations sur la ville, province et pays sont automatiquement ajoutées. Alors, demander toujours le code postal du client avant de lui demander sa ville. Ainsi lorsque la ville sera automatiquement affichée vous pourrez toujours confirmer si la ville incluse dans InfoMarina correspond bien à sa ville réelle."
+        [[added.category.items]]
+            item = "Pour les utilisateurs du logiciel ACOMBA avec InfoMarina il est important de faire la mise à jour des clients ACOMBA suite aux changements ou corrections des villes afin que les deux logiciels possèdent les mêmes informations. Pour mettre à jour les clients ACOMBA via InfoMarina il faut utiliser le menu dans InfoMarina **Facturation**, **Acomba**, **Mise à jour des clients**"
+        [[added.category.items]]
+            item = "Villes non répertoriées - Il est possible de valider les villes non répertoriées de votre base de données clients en utilisant le bouton **Villes non répertoriées** inclus dans la fenêtre **Gestion des villes, provinces et pays** du menu **Client**, **Automatisation des adresses**, option **Villes, provinces et pays**. Ce bouton vous permet d'uniformiser l'ensemble des villes de votre base de clients. Les clients avec des villes non conformes ( nom différent que le nom inclus dans la liste des villes) seront automatiquement affichés dans la liste. Ensuite en cliquant sur le bouton (OEIL) **Visualiser/Modifier la fiche client** ou en double cliquant sur un client de la liste, la fenêtre de la fiche client sera ouverte. Pour mettre, individuellement, ajour la ville selon le code postal de la fiche client il suffit de cliquer sur le bouton à droite du code postal (2 FLÈCHES) **Assigner la l'adresse suggérée (VILLES, PROVINCES,PAYS)**. Par la suite en cliquant sur le bouton **OK** la fenêtre sera fermée et le client va disparaitre de la liste des villes non répertoriées. Pour mettre, en lot, ajour les villes selon le code postal des fiches clients il suffit de sélectionner avec le bouton **CTRL** ou **SHIFT** l'ensemble des clients de la liste pour lesquels vous voulez mettre à jour leur ville. Ensuite sur le bouton de (2 FLÈCHES) **Assigner la l'adresse suggérée (VILLES, PROVINCES,PAYS)**. Par la suite tous les clients vont disparaitre de la liste des villes non répertoriées."
+        [[added.category.items]]
+            item = "Le total de la facture est arrondi lorsque le client n’a pas de pièce(s) de 1 cent pour payer le montant exact. Le montant calculé à remettre au client est également arrondi au multiple de cinq le plus près étant donné que les commerçants ne peuvent plus remettre en circulation des pièces de 1 cent maintenant. La gestion des arrondissements est activable à partir du menu **Outils**, **Paramètres**, **Configuration générale** onglet **Comptabilité**. Cette gestion permettra de gérer cette nouvelle spécification, tout en prenant en compte les gains et les pertes générés par l’arrondissement des montants des factures payées comptant. De savoir le montant exact de la monnaie à remettre au client lors d’un paiement en mode Comptant. À venir lorsque disponible via ACOMBA, cette gestion permettra le transfert des montants d'arrondissements dans le compte spécifique à l’arrondissement (cents) pour le compte recevable ACOMBA."
+        [[added.category.items]]
+            item = "Ajout du montant des gains/pertes sur arrondissement (cents)."
+        [[added.category.items]]
+            item = "Ajout d'une colonne **REMISE** dans le groupe paiements."
+        [[added.category.items]]
+            item = "Ajout des transactions de type **Paiement** correspondant à l'intervalle choisi même si la facture a été émise dans une période précédente à l'intervalle."
+
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Il n'est plus possible de changer (éditer directement dans la réservation) le nom et le prénom d'un client d'une réservation déjà existante. Les champs **Nom** et **Prénom** ont été grisés. Tous les autres champs de la fiche client resteront éditables. Il est toujours possible de changer le client en utilisant les boutons **Sélectionner** et **Nouveau**."
+        [[fixed.category.items]]
+            item = "Corrections mineures."

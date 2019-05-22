@@ -1,0 +1,7 @@
+published = "true"
+version_number = "6.7c"
+version_date = 2013-08-22
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Trois nouvelles validations ont été ajoutées lors de la sauvegarde d’un contrat. Les validations vérifieront l’exactitude des données lors d’une sauvegarde de contrat afin d’éviter des données invalides ou incorrectes. Si une erreur devait arriver dans les données lors de la sauvegarde d'un contrat , un message d’avertissement sera affiché de nous contacter."

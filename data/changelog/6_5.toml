@@ -1,0 +1,37 @@
+published = "true"
+version_number = "6.5"
+version_date = 2013-06-14
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Un bouton **Permuter deux emplacements** a été inclus dans les onglets **Arrivées** , **Départs**, **Grille**, **Plan** et selon votre appellation des onglets **Saisonnier ou sous contrat**. Ce bouton permet de permuter (changer) deux clients de quai entre eux. Pour ce faire, il faut sélectionner un emplacement dans la liste **Emplacement 1** et un emplacement dans la liste **Emplacement 2**. Ensuite il est possible de valider les renseignements des clients étant aux emplacements sélectionnés. Ensuite si vous cliquez sur le bouton **OK** des validations seront effectuées afin de valider si la permutation peut avoir lieu. Si ce n'est pas possible, un message sera affiché. Sinon le message **Opération réussie !** est affiché. Si une réservation a été effectuée dans la période d'un départ temporaire d'un des deux contrats des emplacements sélectionnés, la ligne affichant l'information de la réservation est automatiquement affichée en rouge. Il est alors impossible de faire cette permutation."
+        [[added.category.items]]
+            item = "Une liste de villes du Québec a été ajoutée afin de faciliter la saisie d'un nom de ville pour un client. En sélectionnant une ville dans la liste, lors de la modification et/ou de l'ajout d'un nouveau client vous uniformiserez le nom de la ville afin d'éviter d'avoir dans vos données une ville écrite de multiples façons. Cela facilite la gestion, diminue les erreurs et augmente l'efficacité des rapports statistiques."
+        [[added.category.items]]
+            item = "La gestion des arrondissements (Retrait de la pièce de 1 cent) est activable à partir du menu **Outils**, **Paramètres**, **Configuration générale** onglet **Comptabilité**. Cette gestion permet le transfert des montants d'arrondissements dans ACOMBA."
+        [[added.category.items]]
+            item = "Il était possible d'ajouter une réservation sans toutefois lui attribuer un emplacement. Les réservations étaient affichées dans l'onglet **Arrivées** avec la mention **En attente** dans la colonne emplacement."
+        [[added.category.items]]
+            item = "Une nouvelle liste a été créée afin de visualiser l'ensemble des réservations qui n'ont pas d'emplacements attribués. Cette liste est disponible sous le menu **Client**, **Gestion des listes d'attentes**, **Réservations**."
+        [[added.category.items]]
+            item = "Il est possible d'assigner un emplacement à la réservation en double cliquant sur la réservation dans la liste. Ensuite une fenêtre est ouverte dans l'onglet **Assigation** il est possible de sélectionner les emplacements disponibles. Le bouton en bas à droite **Assigner à l'emplacement** de la fenêtre permet de l'assigner. Suite à l'assignation d'un emplacement, la réservation sera automatiquement enlevée de la liste des réservations en attente, car elle est maintenant considérée comme une réservation complétée."
+        [[added.category.items]]
+            item = "Le bouton **Ajouter liste d'attente** inclus dans l'onglet des **Arrivées** , **Départs** et **Grille** est maintenant appelé **Ajouter réservation en attente**."
+        [[added.category.items]]
+            item = "L'affichage de l'heure d'arrivées et de départ dans la bulle d'information de la grille à été uniformiser avec l'affichage de l'heure d'arrivées et de départ dans la bulle d'information du plan."
+        [[added.category.items]]
+            item = "L'affichage du nombre de rappels dans le titre de l'onglet comprend l'ensemble des rappels de tous les types. Ainsi même s'il ya un seul rappel relié à une réservation il ce peut que le nombre indiqué soit plus élevé afin de vous informer qu'il aussi d'autre rappel pour d'autres types. Si vous sélectionnez **Tous** dans la liste de types de rappel, le nombre de rappels affiché dans l'onglet correspondra exactement au nombre total de rappels du nombre de rappels dans le titre de l'onglet."
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Un problème d'affichage et de données rendait la liste d'attente difficilement utilisable."
+        [[fixed.category.items]]
+            item = "Un problème d'affichage et de données rendait la gestion des notes difficilement utilisable."
+        [[fixed.category.items]]
+            item = "Ajout de l'affichage du nombre de notes dans la bulle d'information de la grille et du plan."
+        [[fixed.category.items]]
+            item = "Ajout de l'affichage du nombre de notes dans le résumé de la réservation ou du contrat de la grille et du plan."
+        [[fixed.category.items]]
+            item = "Ajout de boutons juste à côté du nombre de notes dans le résumé de la réservation ou du contrat de la grille et du plan afin de permettre un accès facile en ajoute ou consultation."
+        [[fixed.category.items]]
+            item = "Ajout d'un titre sur la note dans l'affiche des notes sous l'onglet **Rappels** afin d'améliorer leur gestion."

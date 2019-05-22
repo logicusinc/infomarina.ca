@@ -1,0 +1,7 @@
+published = "true"
+version_number = "6.8a"
+version_date = 2013-09-19
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Erreur lor de renouvellement de contrat. L'indice spécifié [-1] est invalide"

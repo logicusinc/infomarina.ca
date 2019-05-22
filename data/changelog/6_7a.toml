@@ -1,0 +1,15 @@
+published = "true"
+version_number = "6.7a"
+version_date = 2013-08-08
+[added]
+    [[added.category]]
+        [[added.category.items]]
+            item = "Une mise à jour de l'affichage est maintenant effectuée pour rafraichir les informations suite à un changement dans une réservation."
+
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Il n'est plus possible de changer (éditer directement dans la réservation) le nom et le prénom d'un client d'une réservation déjà existante. Les champs **Nom** et **Prénom** ont été grisés. Tous les autres champs de la fiche client resteront éditables. Il est toujours possible de changer le client en utilisant les boutons **Sélectionner** et **Nouveau**."
+        [[fixed.category.items]]
+            item = "Corrections mineures."
+

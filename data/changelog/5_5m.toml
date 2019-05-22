@@ -1,0 +1,7 @@
+published = "true"
+version_number = "5.5m"
+version_date = 2012-09-25
+[fixed]
+    [[fixed.category]]
+        [[fixed.category.items]]
+            item = "Affichage des emplacements dans les notes"

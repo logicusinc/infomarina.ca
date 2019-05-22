@@ -71,3 +71,9 @@
         enable = true
         title = "Nos Forfaits"
         lead = "Veuillez noter que tous nos tarifs sont fonction du nombre de licence et du nombre de quai de votre location."
+    [changelog]
+        default_added_label = "Ajouts"
+        default_fixed_label = "Corrections"
+        download_label = "Télécharger"
+        no_download_label = "Téléchargement Non Disponible"
+        version_prefix_label = "InfoMarina version "
