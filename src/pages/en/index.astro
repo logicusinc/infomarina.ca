@@ -1,0 +1,27 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Nav from '@/components/Nav.astro';
+import Hero from '@/components/Hero.astro';
+import Intro from '@/components/Intro.astro';
+import Services from '@/components/Services.astro';
+import Portfolio from '@/components/Portfolio.astro';
+import Pricing from '@/components/Pricing.astro';
+import Clients from '@/components/Clients.astro';
+import Team from '@/components/Team.astro';
+import Contact from '@/components/Contact.astro';
+import { getTranslations } from '@/i18n';
+
+const t = getTranslations('en');
+---
+
+<Layout t={t}>
+  <Nav t={t} />
+  <Hero t={t} />
+  <Intro t={t} />
+  <Services t={t} />
+  <Portfolio t={t} />
+  <Pricing t={t} />
+  <Clients t={t} />
+  <Team t={t} />
+  <Contact t={t} />
+</Layout>

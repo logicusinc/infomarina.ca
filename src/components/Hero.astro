@@ -1,0 +1,37 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+---
+
+<section id="top" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-navy-dark via-navy to-navy-dark"></div>
+  <div class="absolute inset-0 bg-[url('/images/slider/slide-marina-3.jpg')] bg-cover bg-center opacity-25"></div>
+
+  <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+    <img src="/images/InfoMarinaLogo.png" alt="InfoMarina" class="mx-auto mb-8 w-56 sm:w-72" loading="eager" />
+
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-brand mb-6 tracking-tight">
+      {t.hero.tagline}
+    </h1>
+
+    <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed">
+      {t.hero.subtitle}
+    </p>
+
+    <!-- Feature pills -->
+    <div class="flex flex-wrap justify-center gap-3 mb-10 max-w-3xl mx-auto">
+      {[...t.hero.features_left, ...t.hero.features_right].map((feature) => (
+        <span class="px-4 py-1.5 bg-navy-light/60 border border-brand/30 rounded-full text-sm text-gray-300">
+          {feature}
+        </span>
+      ))}
+    </div>
+
+    <a href="#overview" class="inline-flex items-center justify-center text-brand hover:text-brand-light transition-colors animate-bounce">
+      <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </a>
+  </div>
+</section>

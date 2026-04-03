@@ -1,0 +1,26 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+---
+
+<section id="overview" class="py-20 bg-navy">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-4">{t.services.heading}</h2>
+    <p class="text-center text-gray-300 max-w-3xl mx-auto mb-16 text-lg leading-relaxed">{t.services.description}</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {t.services.items.map((item) => (
+        <div class="bg-navy-dark/50 rounded-xl p-6 border border-navy-light/30 hover:border-brand/50 transition-all duration-300">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand/10 text-brand mb-4">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5l-7 7 7 7" transform="rotate(270 12 12)" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-brand mb-3">{item.title}</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">{item.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

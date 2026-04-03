@@ -1,0 +1,46 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+---
+
+<section class="py-20 bg-navy">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-16">{t.pricing.heading}</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {t.pricing.items.map((pkg, i) => (
+        <div class:list={[
+          'rounded-xl overflow-hidden flex flex-col border',
+          pkg.featured
+            ? 'border-brand bg-navy-dark ring-2 ring-brand shadow-lg shadow-brand/20'
+            : 'border-navy-light/30 bg-navy-dark'
+        ]}>
+          <div class:list={['text-center py-6', pkg.featured ? 'bg-brand/20' : 'bg-navy-light/20']}>
+            <p class="text-sm text-gray-400 uppercase tracking-wider">{pkg.name}</p>
+            <p class="text-4xl font-black text-brand mt-1">{pkg.number}</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <ul class="space-y-3 flex-1">
+              {pkg.features.map((feature: string) => (
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span class="text-gray-300 text-sm">{feature}</span>
+                </li>
+              ))}
+            </ul>
+            <a href={`mailto:info@infomarina.ca?subject=InfoMarina - ${pkg.name} ${pkg.number}`}
+               class:list={[
+                 'mt-6 block text-center py-3 rounded-lg font-bold transition-colors',
+                 pkg.featured ? 'bg-brand hover:bg-brand-dark text-white' : 'bg-navy-light hover:bg-brand text-white'
+               ]}>
+              {t.pricing.inquireBtn}
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

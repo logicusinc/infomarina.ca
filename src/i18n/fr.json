@@ -1,0 +1,219 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "locale": "fr-CA",
+  "switchLang": "en",
+  "switchLabel": "English",
+  "switchUrl": "/en/",
+
+  "meta": {
+    "title": "InfoMarina | Logiciel de gestion pour marinas, ports de plaisance et yacht clubs",
+    "description": "InfoMarina est la solution informatique complète pour la gestion des marinas, ports de plaisance et yacht clubs de toutes tailles. Réservations, facturation, plan interactif.",
+    "keywords": "infomarina, logiciel marina, marina software, plan marina, port de plaisance, yacht club, gestion réservations, places à quai, pontons, mouillages"
+  },
+
+  "nav": {
+    "home": "Accueil",
+    "overview": "Survol",
+    "screenshots": "Captures d'écran",
+    "clients": "Clients",
+    "team": "Notre équipe",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "tagline": "Amarrez-vous à nous!",
+    "subtitle": "Solution logicielle complète pour la gestion des marinas, ports de plaisance et yacht clubs",
+    "features_left": ["Réservations", "Membres saisonniers", "Visiteurs", "Facturation", "Mises à l'eau", "Renouvellement", "Support"],
+    "features_right": ["Mises à jour", "Plan interactif", "Essence", "Tarification automatique", "Rapports", "Facile à utiliser", "Statistiques"]
+  },
+
+  "intro": {
+    "items": [
+      {
+        "title": "Réservations",
+        "subtitle": "Module",
+        "text": "Augmenter votre efficacité dans la gestion de vos réservations de places à quai avec InfoMarina.",
+        "image": "grille.png"
+      },
+      {
+        "title": "Facturation",
+        "subtitle": "Disponible en option",
+        "text": "Le module permet de facturer à l'intérieur même du logiciel InfoMarina.",
+        "image": "facturation.png"
+      },
+      {
+        "title": "Plan interactif",
+        "subtitle": "Disponible en option",
+        "text": "Le module permet les réservations à partir d'un plan de vos installations.",
+        "image": "plan.png"
+      },
+      {
+        "title": "Acomba",
+        "subtitle": "Disponible en option",
+        "text": "Permet de transférer les transactions comptables d'InfoMarina vers le logiciel de comptabilité ACOMBA.",
+        "image": "acomba.png"
+      }
+    ]
+  },
+
+  "services": {
+    "heading": "Survol",
+    "description": "InfoMarina est un logiciel pour la gestion des places à quai, pontons, mouillages, des marinas, yacht clubs, ports de plaisance de toutes tailles.",
+    "items": [
+      {
+        "title": "Module Réservations",
+        "text": "Permet la gestion des réservations, des arrivées, des départs, des départs temporaires. Gestion des listes d'attente et consultation et impression des statistiques."
+      },
+      {
+        "title": "Module Facturation",
+        "text": "Permet de facturer selon une tarification à l'heure, à la journée, à la semaine, au mois et saisonnière; vente d'articles, d'essence et autres. Accepte tous les modes de paiement."
+      },
+      {
+        "title": "Module Plan interactif",
+        "text": "Permet de gérer votre site à partir d'un plan personnalisé et représentatif du visuel de vos installations; voyez au jour le jour les places qui sont complètes, incomplètes et libres."
+      },
+      {
+        "title": "Communication ACOMBA",
+        "text": "Permet le transfert des transactions comptables d'InfoMarina vers le logiciel de comptabilité ACOMBA. Gestion des listes d'attente et consultation des statistiques."
+      }
+    ]
+  },
+
+  "portfolio": {
+    "heading": "Captures d'écran",
+    "description": "À partir de maintenant, avec InfoMarina, les agendas papier et les grandes grilles murales aimantées appartiennent à l'histoire.",
+    "filters": {
+      "all": "Montrer tout",
+      "reservations": "Réservations",
+      "billing": "Facturation",
+      "layout": "Plan interactif",
+      "printing": "Impressions"
+    }
+  },
+
+  "pricing": {
+    "heading": "Forfaits",
+    "inquireBtn": "Informez-vous",
+    "items": [
+      {
+        "name": "Forfait",
+        "number": "# 1",
+        "features": ["Module: Réservations", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "featured": false
+      },
+      {
+        "name": "Forfait",
+        "number": "# 2",
+        "features": ["Module: Réservations", "Module: Facturation", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "featured": false
+      },
+      {
+        "name": "Forfait",
+        "number": "# 3",
+        "features": ["Module: Réservations", "Module: Facturation", "Module: Plan interactif", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "featured": false
+      },
+      {
+        "name": "Forfait",
+        "number": "# 4",
+        "features": ["Module: Réservations", "Module: Facturation", "Module: Plan interactif", "Option: Transferts ACOMBA", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "featured": true
+      }
+    ]
+  },
+
+  "clients": {
+    "heading": "Nos clients...",
+    "description": "Notre principal objectif dans tout ce que nous faisons est la satisfaction de nos clients.",
+    "items": [
+      {
+        "name": "The Washington Marina Company",
+        "location": "WASHINGTON - ÉTATS-UNIS",
+        "image": "washington_marina.jpg",
+        "url": "http://www.washingtonmarina.com/",
+        "text": "Susan Hoffman — « WMC LOVES InfoMarina! It's going GREAT – this is SO much fun! Andre, You know, you and your team are absolutely fantastic. Seriously, your customer support is superior to anything I have ever seen… YOU ARE THE BEST - really, I mean it. »"
+      },
+      {
+        "name": "Marina de Ville-Marie",
+        "location": "QUÉBEC - CANADA",
+        "image": "marina_ville-marie.jpg",
+        "text": "La Marina municipale de Ville-Marie est située à deux pas du centre-ville et près du magnifique Parc du Centenaire. Dotée de 91 emplacements avec services d'eau et d'électricité."
+      },
+      {
+        "name": "Marina de la Chaudière",
+        "location": "QUÉBEC - CANADA",
+        "image": "marina_chaudiere.jpg",
+        "text": "De type coopératif, la Marina de la Chaudière se développe grâce à la collaboration étroite de ses quelque 122 membres de diverses catégories. Située sur la Rive-Sud du St-Laurent."
+      },
+      {
+        "name": "Marina de Portneuf",
+        "location": "QUÉBEC - CANADA",
+        "image": "marina-portneuf.jpg",
+        "text": "La marina est située sur la Rive-Nord du St-Laurent à mi-chemin entre Québec et Trois-Rivières. Un endroit paisible qui permet un bon repos."
+      },
+      {
+        "name": "Marina Taina",
+        "location": "TAHITI - OCÉANIE",
+        "image": "marina-taina.jpg",
+        "text": "La marina Taina à Punaauia peut accueillir environ 550 bateaux ou navires de plaisance à quai, sur terre-plein ou au port à sec. 130 corps morts sont également gérés."
+      },
+      {
+        "name": "Marina Bouregreg",
+        "location": "MAROC - AFRIQUE",
+        "image": "marina-bouregreg.jpg",
+        "text": "Entre l'Atlantique et la Vallée du Bouregreg, cette magnifique marina fluviale est bordée de prestigieux sites historiques."
+      },
+      {
+        "name": "Marina de Thunder Bay",
+        "location": "ONTARIO - CANADA",
+        "image": "marina-thunder-bay.jpg",
+        "text": "Situé dans la belle ville du débarcadère Prince Arthur à Marina Park sur les rives du lac Supérieur. La Marina offre 271 quais."
+      },
+      {
+        "name": "Marina Rose des Vents",
+        "location": "QUÉBEC - CANADA",
+        "image": "marina_rose_des_vents.jpg",
+        "text": "La Marina est reconnue pour son magnifique emplacement et sa superbe vue sur le début du Lac Champlain du côté Canadien."
+      }
+    ]
+  },
+
+  "team": {
+    "heading": "Notre équipe",
+    "description": "Notre logiciel InfoMarina est créé par des gens qui ont la passion et l'amour du métier.",
+    "members": [
+      { "title": "VENTES", "subtitle": "Notre plaisir est de vous informer", "image": "1-290x290.jpg", "email": "ventes@infomarina.ca" },
+      { "title": "SERVICES", "subtitle": "Notre plaisir est de vous servir", "image": "2-290x290.jpg", "email": "services@infomarina.ca" },
+      { "title": "PROGRAMMATION", "subtitle": "Notre plaisir est de vous écouter", "image": "3-290x290.jpg", "email": "info@infomarina.ca" },
+      { "title": "SUPPORT", "subtitle": "Notre plaisir est de vous aider", "image": "4-290x290.jpg", "email": "support@infomarina.ca" }
+    ]
+  },
+
+  "contact": {
+    "heading": "Contact",
+    "description": "Vous voulez en savoir plus? Donnez-nous un coup de fil! Nous serons heureux de vous répondre.",
+    "regions": [
+      {
+        "name": "Amérique",
+        "phone": "450 224 7474",
+        "tollFree": "+1 888 824 7474",
+        "email": "info@infomarina.ca"
+      },
+      {
+        "name": "Europe",
+        "representative": "Fabien Lafiandra",
+        "phone": "33 6 31 16 97 45",
+        "email": "fabien@infomarina.ca"
+      }
+    ],
+    "phoneLabel": "Téléphone",
+    "tollFreeLabel": "Sans frais",
+    "emailLabel": "Courriel",
+    "representativeLabel": "Représentant"
+  },
+
+  "footer": {
+    "copyright": "Développé et hébergé par: LOGICUS INFORMATIQUE INC. Tous droits réservés."
+  }
+}

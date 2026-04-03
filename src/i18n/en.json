@@ -1,0 +1,219 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "locale": "en",
+  "switchLang": "fr",
+  "switchLabel": "Français",
+  "switchUrl": "/",
+
+  "meta": {
+    "title": "InfoMarina | Marina management software for marinas, yacht clubs and harbours",
+    "description": "InfoMarina is the complete software solution for managing marinas, yacht clubs and harbours of all sizes. Reservations, billing, interactive layout.",
+    "keywords": "infomarina, marina software, marina layout, yacht clubs, reservations management, slips, pontoons, moorings"
+  },
+
+  "nav": {
+    "home": "Home",
+    "overview": "Overview",
+    "screenshots": "Screenshots",
+    "clients": "Customers",
+    "team": "Our Team",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "tagline": "Come Aboard with Us!",
+    "subtitle": "Complete software solution for managing marinas and yacht clubs of all sizes",
+    "features_left": ["Reservations", "Seasonal Customers", "Occasional Customers", "Billing", "Boat Launching", "Renewal", "Support"],
+    "features_right": ["Updates", "Interactive Layout", "Fuel", "Automatic Pricing", "Reports", "Easy to Use", "Statistics"]
+  },
+
+  "intro": {
+    "items": [
+      {
+        "title": "Reservations",
+        "subtitle": "Module",
+        "text": "Increase your efficiency in managing your slip reservations with InfoMarina.",
+        "image": "grille.png"
+      },
+      {
+        "title": "Billing",
+        "subtitle": "Available as option",
+        "text": "The module allows you to bill directly within the InfoMarina software.",
+        "image": "facturation.png"
+      },
+      {
+        "title": "Interactive Layout",
+        "subtitle": "Available as option",
+        "text": "The module allows reservations from a visual map of your facilities.",
+        "image": "plan.png"
+      },
+      {
+        "title": "Acomba",
+        "subtitle": "Available as option",
+        "text": "Transfer accounting transactions from InfoMarina to the ACOMBA accounting software.",
+        "image": "acomba.png"
+      }
+    ]
+  },
+
+  "services": {
+    "heading": "Overview",
+    "description": "InfoMarina is software for managing slips, pontoons, moorings, marinas, yacht clubs, and harbours of all sizes.",
+    "items": [
+      {
+        "title": "Reservations Module",
+        "text": "Manage reservations, arrivals, departures, and temporary departures. Waiting list management and statistics consultation and printing."
+      },
+      {
+        "title": "Billing Module",
+        "text": "Bill by the hour, day, week, month, or season; sell articles, fuel, and more. Accepts all payment methods."
+      },
+      {
+        "title": "Interactive Layout Module",
+        "text": "Manage your site from a customized layout representing your facilities; see day-by-day which slips are complete, incomplete, and available."
+      },
+      {
+        "title": "ACOMBA Integration",
+        "text": "Transfer accounting transactions from InfoMarina to the ACOMBA accounting software. Waiting list management and statistics consultation."
+      }
+    ]
+  },
+
+  "portfolio": {
+    "heading": "Screenshots",
+    "description": "From now on, with InfoMarina, paper calendars and large magnetic whiteboards are a thing of the past.",
+    "filters": {
+      "all": "Show All",
+      "reservations": "Reservations",
+      "billing": "Billing",
+      "layout": "Interactive Layout",
+      "printing": "Reports"
+    }
+  },
+
+  "pricing": {
+    "heading": "Packages",
+    "inquireBtn": "Learn More",
+    "items": [
+      {
+        "name": "Package",
+        "number": "# 1",
+        "features": ["Module: Reservations", "Support: 4 business hours", "Updates: Via Internet", "Price based on number of licenses and slips"],
+        "featured": false
+      },
+      {
+        "name": "Package",
+        "number": "# 2",
+        "features": ["Module: Reservations", "Module: Billing", "Support: 4 business hours", "Updates: Via Internet", "Price based on number of licenses and slips"],
+        "featured": false
+      },
+      {
+        "name": "Package",
+        "number": "# 3",
+        "features": ["Module: Reservations", "Module: Billing", "Module: Interactive Layout", "Support: 4 business hours", "Updates: Via Internet", "Price based on number of licenses and slips"],
+        "featured": false
+      },
+      {
+        "name": "Package",
+        "number": "# 4",
+        "features": ["Module: Reservations", "Module: Billing", "Module: Interactive Layout", "Option: ACOMBA Transfers", "Support: 4 business hours", "Updates: Via Internet", "Price based on number of licenses and slips"],
+        "featured": true
+      }
+    ]
+  },
+
+  "clients": {
+    "heading": "Our Customers...",
+    "description": "Our main goal in everything we do is customer satisfaction.",
+    "items": [
+      {
+        "name": "The Washington Marina Company",
+        "location": "WASHINGTON - USA",
+        "image": "washington_marina.jpg",
+        "url": "http://www.washingtonmarina.com/",
+        "text": "Susan Hoffman — « WMC LOVES InfoMarina! It's going GREAT – this is SO much fun! Andre, You know, you and your team are absolutely fantastic. Seriously, your customer support is superior to anything I have ever seen… YOU ARE THE BEST - really, I mean it. »"
+      },
+      {
+        "name": "Marina de Ville-Marie",
+        "location": "QUEBEC - CANADA",
+        "image": "marina_ville-marie.jpg",
+        "text": "The municipal Marina of Ville-Marie is located steps from downtown and near the magnificent Parc du Centenaire. Equipped with 91 slips with water and electricity services."
+      },
+      {
+        "name": "Marina de la Chaudière",
+        "location": "QUEBEC - CANADA",
+        "image": "marina_chaudiere.jpg",
+        "text": "A cooperative marina, Marina de la Chaudière thrives through the close collaboration of its approximately 122 members. Located on the South Shore of the St. Lawrence."
+      },
+      {
+        "name": "Marina de Portneuf",
+        "location": "QUEBEC - CANADA",
+        "image": "marina-portneuf.jpg",
+        "text": "The marina is located on the North Shore of the St. Lawrence, midway between Quebec City and Trois-Rivières. A peaceful spot for rest."
+      },
+      {
+        "name": "Marina Taina",
+        "location": "TAHITI - OCEANIA",
+        "image": "marina-taina.jpg",
+        "text": "Marina Taina in Punaauia can accommodate approximately 550 boats at dock, on dry land, or in dry storage. 130 moorings are also managed."
+      },
+      {
+        "name": "Marina Bouregreg",
+        "location": "MOROCCO - AFRICA",
+        "image": "marina-bouregreg.jpg",
+        "text": "Between the Atlantic and the Bouregreg Valley, this magnificent river marina is bordered by prestigious historical sites."
+      },
+      {
+        "name": "Marina of Thunder Bay",
+        "location": "ONTARIO - CANADA",
+        "image": "marina-thunder-bay.jpg",
+        "text": "Located at Prince Arthur's Landing in Marina Park on the shores of Lake Superior. The Marina offers 271 slips."
+      },
+      {
+        "name": "Marina Rose des Vents",
+        "location": "QUEBEC - CANADA",
+        "image": "marina_rose_des_vents.jpg",
+        "text": "The Marina is known for its magnificent location and superb view of Lake Champlain from the Canadian side."
+      }
+    ]
+  },
+
+  "team": {
+    "heading": "Our Team",
+    "description": "Our InfoMarina software is created by people who are passionate about their craft.",
+    "members": [
+      { "title": "SALES", "subtitle": "Our pleasure is to inform you", "image": "1-290x290.jpg", "email": "ventes@infomarina.ca" },
+      { "title": "SERVICES", "subtitle": "Our pleasure is to serve you", "image": "2-290x290.jpg", "email": "services@infomarina.ca" },
+      { "title": "DEVELOPMENT", "subtitle": "Our pleasure is to listen to you", "image": "3-290x290.jpg", "email": "info@infomarina.ca" },
+      { "title": "SUPPORT", "subtitle": "Our pleasure is to help you", "image": "4-290x290.jpg", "email": "support@infomarina.ca" }
+    ]
+  },
+
+  "contact": {
+    "heading": "Contact",
+    "description": "Want to learn more? Give us a call! We'll be happy to answer.",
+    "regions": [
+      {
+        "name": "Americas",
+        "phone": "450 224 7474",
+        "tollFree": "+1 888 824 7474",
+        "email": "info@infomarina.ca"
+      },
+      {
+        "name": "Europe",
+        "representative": "Fabien Lafiandra",
+        "phone": "33 6 31 16 97 45",
+        "email": "fabien@infomarina.ca"
+      }
+    ],
+    "phoneLabel": "Phone",
+    "tollFreeLabel": "Toll-free",
+    "emailLabel": "Email",
+    "representativeLabel": "Representative"
+  },
+
+  "footer": {
+    "copyright": "Developed and hosted by: LOGICUS INFORMATIQUE INC. All rights reserved."
+  }
+}
