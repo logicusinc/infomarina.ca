@@ -195,22 +195,16 @@
     "description": "Want to learn more? Give us a call! We'll be happy to answer.",
     "regions": [
       {
-        "name": "Americas",
-        "phone": "450 224 7474",
-        "tollFree": "+1 888 824 7474",
+        "name": "NORTH AMERICA AND OTHER",
+        "phone": "+1 450-224-7474",
+        "tollFree": "+1 888-824-7474",
         "email": "info@infomarina.ca"
-      },
-      {
-        "name": "Europe",
-        "representative": "Fabien Lafiandra",
-        "phone": "33 6 31 16 97 45",
-        "email": "fabien@infomarina.ca"
       }
     ],
+    "companyLabel": "Company",
     "phoneLabel": "Phone",
     "tollFreeLabel": "Toll-free",
-    "emailLabel": "Email",
-    "representativeLabel": "Representative"
+    "emailLabel": "Email"
   },
 
   "footer": {

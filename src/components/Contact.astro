@@ -2,32 +2,31 @@
 import type { TranslationData } from '@/i18n';
 interface Props { t: TranslationData; }
 const { t } = Astro.props;
+
+const region = t.contact.regions[0];
 ---
 
 <footer id="contact" class="py-20 bg-navy-dark border-t border-navy-light/30">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">{t.contact.heading}</h2>
-    <p class="text-gray-300 mb-12 text-lg">{t.contact.description}</p>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+      <span class="text-brand">{t.contact.heading}</span>
+    </h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-      {t.contact.regions.map((region) => (
-        <div class="bg-navy rounded-xl p-6 border border-navy-light/30">
-          <h3 class="text-xl font-bold text-brand mb-4">{region.name}</h3>
-          <div class="space-y-2 text-gray-300 text-sm">
-            {'representative' in region && region.representative && (
-              <p>{t.contact.representativeLabel}: <span class="text-white">{region.representative}</span></p>
-            )}
-            <p>{t.contact.phoneLabel}: <a href={`tel:${region.phone.replace(/\s/g, '')}`} class="text-white hover:text-brand">{region.phone}</a></p>
-            {'tollFree' in region && region.tollFree && (
-              <p>{t.contact.tollFreeLabel}: <a href={`tel:${region.tollFree.replace(/\s/g, '')}`} class="text-white hover:text-brand">{region.tollFree}</a></p>
-            )}
-            <p>{t.contact.emailLabel}: <a href={`mailto:${region.email}`} class="text-brand hover:underline">{region.email}</a></p>
-          </div>
-        </div>
-      ))}
+    <div class="text-center">
+      <p class="text-gray-300 mb-8 text-lg">{t.contact.description}</p>
+
+      <img src="/images/InfoMarinaLogo.png" alt="InfoMarina" class="mx-auto mb-6 w-48" loading="lazy" />
+
+      <div class="space-y-2 text-gray-300">
+        <p class="font-bold text-white">{region.name}</p>
+        <p>{t.contact.companyLabel}: <a href="https://www.logicus.qc.ca/" target="_blank" rel="noopener" class="text-brand hover:underline">Logicus Informatique inc.</a></p>
+        <p>{t.contact.tollFreeLabel}: <a href={`tel:${region.tollFree.replace(/\s/g, '')}`} class="hover:text-brand">{region.tollFree}</a></p>
+        <p>{t.contact.phoneLabel}: <a href={`tel:${region.phone.replace(/\s/g, '')}`} class="hover:text-brand">{region.phone}</a></p>
+        <p><a href={`mailto:${region.email}`} class="text-brand hover:underline">{region.email}</a></p>
+      </div>
     </div>
 
-    <div class="pt-8 border-t border-navy-light/30">
+    <div class="mt-16 pt-8 border-t border-navy-light/30 text-center">
       <p class="text-gray-500 text-sm">
         <a href="https://www.logicus.qc.ca" target="_blank" rel="noopener" class="hover:text-brand">
           {t.footer.copyright}
