@@ -19,6 +19,8 @@ const { t } = Astro.props;
       {t.hero.subtitle}
     </p>
 
+    <img src="/images/slider/infomarina-screen.png" alt="InfoMarina" class="mx-auto mb-6 max-w-xs w-full rounded-lg" loading="eager" />
+
     <!-- Feature pills -->
     <div class="flex flex-wrap justify-center gap-3 mb-10 max-w-3xl mx-auto">
       {[...t.hero.features_left, ...t.hero.features_right].map((feature) => (
