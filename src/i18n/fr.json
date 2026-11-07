@@ -24,8 +24,24 @@
   "hero": {
     "tagline": "Amarrez-vous à nous!",
     "subtitle": "Solution logicielle complète pour la gestion des marinas, ports de plaisance et yacht clubs",
-    "features_left": ["Réservations", "Membres saisonniers", "Visiteurs", "Facturation", "Mises à l'eau", "Renouvellement", "Support"],
-    "features_right": ["Mises à jour", "Plan interactif", "Essence", "Tarification automatique", "Rapports", "Facile à utiliser", "Statistiques"]
+    "features_left": [
+      "Réservations",
+      "Membres saisonniers",
+      "Visiteurs",
+      "Facturation",
+      "Mises à l'eau",
+      "Renouvellement",
+      "Support"
+    ],
+    "features_right": [
+      "Mises à jour",
+      "Plan interactif",
+      "Essence",
+      "Tarification automatique",
+      "Rapports",
+      "Facile à utiliser",
+      "Statistiques"
+    ]
   },
 
   "intro": {
@@ -99,25 +115,51 @@
       {
         "name": "Forfait",
         "number": "# 1",
-        "features": ["Module: Réservations", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "features": [
+          "Module: Réservations",
+          "Support: 4 heures ouvrables",
+          "Mises à jour: Via Internet",
+          "Tarif en fonction du nombre de licences et du nombre de places"
+        ],
         "featured": false
       },
       {
         "name": "Forfait",
         "number": "# 2",
-        "features": ["Module: Réservations", "Module: Facturation", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "features": [
+          "Module: Réservations",
+          "Module: Facturation",
+          "Support: 4 heures ouvrables",
+          "Mises à jour: Via Internet",
+          "Tarif en fonction du nombre de licences et du nombre de places"
+        ],
         "featured": false
       },
       {
         "name": "Forfait",
         "number": "# 3",
-        "features": ["Module: Réservations", "Module: Facturation", "Module: Plan interactif", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "features": [
+          "Module: Réservations",
+          "Module: Facturation",
+          "Module: Plan interactif",
+          "Support: 4 heures ouvrables",
+          "Mises à jour: Via Internet",
+          "Tarif en fonction du nombre de licences et du nombre de places"
+        ],
         "featured": false
       },
       {
         "name": "Forfait",
         "number": "# 4",
-        "features": ["Module: Réservations", "Module: Facturation", "Module: Plan interactif", "Option: Transferts ACOMBA", "Support: 4 heures ouvrables", "Mises à jour: Via Internet", "Tarif en fonction du nombre de licences et du nombre de places"],
+        "features": [
+          "Module: Réservations",
+          "Module: Facturation",
+          "Module: Plan interactif",
+          "Option: Transferts ACOMBA",
+          "Support: 4 heures ouvrables",
+          "Mises à jour: Via Internet",
+          "Tarif en fonction du nombre de licences et du nombre de places"
+        ],
         "featured": true
       }
     ]
@@ -183,10 +225,30 @@
     "heading": "Notre équipe",
     "description": "Notre logiciel InfoMarina est créé par des gens qui ont la passion et l'amour du métier.",
     "members": [
-      { "title": "VENTES", "subtitle": "Notre plaisir est de vous informer", "image": "1-290x290.jpg", "email": "ventes@infomarina.ca" },
-      { "title": "SERVICES", "subtitle": "Notre plaisir est de vous servir", "image": "2-290x290.jpg", "email": "services@infomarina.ca" },
-      { "title": "PROGRAMMATION", "subtitle": "Notre plaisir est de vous écouter", "image": "3-290x290.jpg", "email": "info@infomarina.ca" },
-      { "title": "SUPPORT", "subtitle": "Notre plaisir est de vous aider", "image": "4-290x290.jpg", "email": "support@infomarina.ca" }
+      {
+        "title": "VENTES",
+        "subtitle": "Notre plaisir est de vous informer",
+        "image": "1-290x290.jpg",
+        "email": "ventes@infomarina.ca"
+      },
+      {
+        "title": "SERVICES",
+        "subtitle": "Notre plaisir est de vous servir",
+        "image": "2-290x290.jpg",
+        "email": "services@infomarina.ca"
+      },
+      {
+        "title": "PROGRAMMATION",
+        "subtitle": "Notre plaisir est de vous écouter",
+        "image": "3-290x290.jpg",
+        "email": "info@infomarina.ca"
+      },
+      {
+        "title": "SUPPORT",
+        "subtitle": "Notre plaisir est de vous aider",
+        "image": "4-290x290.jpg",
+        "email": "support@infomarina.ca"
+      }
     ]
   },
 
@@ -196,7 +258,7 @@
     "regions": [
       {
         "name": "AMÉRIQUE DU NORD ET AUTRES",
-        "phone": "+1 450-224-7474",
+        "phone": "+1 450-660-1199",
         "tollFree": "+1 888-824-7474",
         "email": "info@infomarina.ca"
       }
