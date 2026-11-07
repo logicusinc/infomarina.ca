@@ -20,7 +20,6 @@ const region = t.contact.regions[0];
       <div class="space-y-2 text-gray-300">
         <p class="font-bold text-white">{region.name}</p>
         <p>{t.contact.companyLabel}: <a href="https://www.logicus.qc.ca/" target="_blank" rel="noopener" class="text-brand hover:underline">Logicus Informatique inc.</a></p>
-        <p>{t.contact.tollFreeLabel}: <a href={`tel:${region.tollFree.replace(/\s/g, '')}`} class="hover:text-brand">{region.tollFree}</a></p>
         <p>{t.contact.phoneLabel}: <a href={`tel:${region.phone.replace(/\s/g, '')}`} class="hover:text-brand">{region.phone}</a></p>
         <p><a href={`mailto:${region.email}`} class="text-brand hover:underline">{region.email}</a></p>
       </div>
